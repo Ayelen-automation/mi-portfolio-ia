@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">María Ayelén Segreti | AI & Automation Specialist</title>
+    <meta name="description"
+        content="Portfolio de María Ayelén Segreti - Especialista en IA y Automatización con n8n, Make y Antigravity.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container nav-content">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="lang-switch" class="lang-toggle">ES / EN</button>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container hero-content">
+            <div class="animate-fade-in">
+                <div class="availability-badge">
+                    <span class="dot"></span> Disponible para nuevos proyectos
+                </div>
+                <h1 data-i18n="hero.role" style="font-size: 4.5rem; margin-bottom: 0.5rem;"></h1>
+                <p data-i18n="hero.name"
+                    style="font-size: 1.5rem; color: var(--accent-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 2rem;">
+                </p>
+                <p data-i18n="hero.subtitle"
+                    style="font-size: 1.8rem; color: var(--text-muted); margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero.cta">Ver mi trabajo</a>
+                    <a href="/public/CV_MariAyelenSegreti_ATS.pdf" download class="btn"
+                        style="border: 1px solid var(--accent-blue); color: var(--accent-blue); background: transparent;"
+                        data-i18n="hero.cv">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="glass reveal" style="padding: 3rem; text-align: center;">
+                <h2 data-i18n="about.title" style="margin-bottom: 2rem;">Sobre mí</h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 3rem; align-items: center; justify-content: center;">
+                    <div style="flex: 1; min-width: 300px; text-align: left;">
+                        <p data-i18n="about.text" style="font-size: 1.1rem; color: var(--text-muted);"></p>
+                    </div>
+                    <div style="flex: 0 0 250px;">
+                        <img src="/public/profile_real.png" alt="María Ayelén Segreti"
+                            style="width: 100%; border-radius: 50%; border: 4px solid var(--accent-violet);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section (Authority) -->
+    <section class="section" id="skills">
+        <div class="container reveal">
+            <h2 data-i18n="tech.title" style="text-align: center;">Stack Tecnológico de Autoridad</h2>
+            <div class="skills-grid">
+                <div class="glass skill-card">
+                    <i class="fas fa-bolt"
+                        style="font-size: 2.5rem; color: var(--accent-blue); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.2rem;">n8n / Make / Zapier</h3>
+                </div>
+                <div class="glass skill-card">
+                    <i class="fas fa-robot"
+                        style="font-size: 2.5rem; color: var(--accent-violet); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.2rem;">OpenAI / LLMs / RAG</h3>
+                </div>
+                <div class="glass skill-card">
+                    <i class="fas fa-code-branch"
+                        style="font-size: 2.5rem; color: var(--accent-pink); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.2rem;">APIs / Node.js / Python</h3>
+                </div>
+                <div class="glass skill-card">
+                    <i class="fas fa-box-open" style="font-size: 2.5rem; color: #fff; margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.2rem;">Docker / Cloud / SQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology / Process Section -->
+    <section class="section" id="process" style="background: rgba(58, 134, 255, 0.02);">
+        <div class="container reveal">
+            <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 4rem;">Mi Metodología</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
+                    <span
+                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">01</span>
+                    <h3 data-i18n="process.s1.t" style="color: var(--accent-blue);">Auditoría</h3>
+                    <p data-i18n="process.s1.d" style="color: var(--text-muted);"></p>
+                </div>
+                <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
+                    <span
+                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">02</span>
+                    <h3 data-i18n="process.s2.t" style="color: var(--accent-violet);">Arquitectura</h3>
+                    <p data-i18n="process.s2.d" style="color: var(--text-muted);"></p>
+                </div>
+                <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
+                    <span
+                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">03</span>
+                    <h3 data-i18n="process.s3.t" style="color: var(--accent-pink);">Implementación</h3>
+                    <p data-i18n="process.s3.d" style="color: var(--text-muted);"></p>
+                </div>
+                <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
+                    <span
+                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">04</span>
+                    <h3 data-i18n="process.s4.t" style="color: #fff;">Optimización</h3>
+                    <p data-i18n="process.s4.d" style="color: var(--text-muted);"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 data-i18n="projects.title" style="text-align: center; margin-bottom: 4rem;">Casos de Estudio</h2>
+            <div class="project-grid" id="project-list">
+                <!-- Data injected via main.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container reveal">
+            <h2 data-i18n="services.title" style="text-align: center; margin-bottom: 4rem;">Servicios</h2>
+            <div class="services-grid">
+                <div class="glass service-card">
+                    <h3 data-i18n="services.s1.title">Flujos de Trabajo</h3>
+                    <p data-i18n="services.s1.desc"></p>
+                </div>
+                <div class="glass service-card">
+                    <h3 data-i18n="services.s2.title">IA Integración</h3>
+                    <p data-i18n="services.s2.desc"></p>
+                </div>
+                <div class="glass service-card">
+                    <h3 data-i18n="services.s3.title">Custom APIs</h3>
+                    <p data-i18n="services.s3.desc"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="glass reveal contact-container">
+                <h2 data-i18n="contact.title" style="text-align: center; margin-bottom: 1rem;">Hablemos</h2>
+                <p data-i18n="contact.subtitle"
+                    style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;"></p>
+                <form id="contact-form" action="https://formspree.io/f/xvgzpjzk" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" data-i18n="contact.name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" data-i18n="contact.email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" data-i18n="contact.message" required></textarea>
+                    </div>
+                    <button type="submit" id="form-btn" class="btn btn-primary" style="width: 100%;"
+                        data-i18n="contact.send">Enviar</button>
+                    <p id="form-feedback"
+                        style="display: none; margin-top: 1.5rem; text-align: center; font-weight: 500;"></p>
+                </form>
+                <div style="margin-top: 3rem; display: flex; gap: 1rem; justify-content: center;" class="social-links">
+                    <a href="http://linkedin.com/in/maría-ayelén-segreti-650998399/" target="_blank" class="btn glass"
+                        data-i18n="contact.linkedin">LinkedIn</a>
+                    <a href="https://wa.me/5492613387829" target="_blank" class="btn glass" data-i18n="contact.whatsapp"
+                        style="border-color: #25d366; color: #25d366;">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 María Ayelén Segreti. <span data-i18n="skills.level"></span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>

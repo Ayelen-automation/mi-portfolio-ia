@@ -1,0 +1,132 @@
+{
+  "title": "Especialista en IA y Automatización",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "role": "Especialista en IA y Automatización Inteligente",
+    "name": "María Ayelén Segreti",
+    "subtitle": "Transformando negocios mediante ecosistemas de automatización escalables",
+    "cta": "Ver mi trabajo",
+    "cv": "Descargar CV (ATS-Friendly)"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "text": "Estratega de Automatización con más de 3 años de trayectoria internacional. Mi misión es liberar a las empresas de la carga operativa mediante soluciones de IA personalizadas y flujos de trabajo inteligentes. Combino una sólida formación técnica con una visión estratégica de negocio para asegurar que cada automatización genere un impacto real y escalable. Comprometida con la excelencia y la innovación constante, ejecuto proyectos globales con el rigor que demanda la industria tecnológica moderna."
+  },
+  "skills": {
+    "title": "Experiencia Técnica",
+    "level": "Avanzado - Aprendizaje Continuo",
+    "items": {
+      "automation": "n8n, Make, Zapier",
+      "dev": "Node.js, VSC, Docker",
+      "specialized": "Antigravity, APIs & Credenciales",
+      "google": "Herramientas de Google"
+    }
+  },
+  "projects": {
+    "title": "Casos de Estudio Profesionales",
+    "p1": {
+      "title": "Sincronización Automatizada de CRM",
+      "problem": "Entrada manual de datos entre múltiples plataformas causando errores y retrasos.",
+      "tools": "n8n, Salesforce, Google Sheets, Antigravity",
+      "automation": "Sincronización bidireccional en tiempo real con validación de datos basada en IA usando Antigravity.",
+      "result": "Reducción del 95% en trabajo manual y 100% de precisión en los datos.",
+      "benefit": "Mayor eficiencia en ventas e informes en tiempo real."
+    },
+    "p2": {
+      "title": "Agente de Soporte con IA",
+      "problem": "Equipo de soporte abrumado por consultas repetitivas de Nivel 1.",
+      "tools": "n8n, OpenAI, Antigravity, Slack",
+      "automation": "Clasificación dinámica y respuestas automatizadas para problemas comunes, derivación a humanos para casos complejos.",
+      "result": "70% de los tickets resueltos sin intervención humana.",
+      "benefit": "Tiempos de respuesta más rápidos y reducción de costos operativos."
+    },
+    "p3": {
+      "title": "Calificación Inteligente de Leads",
+      "problem": "Equipo de ventas perdiendo tiempo en leads de baja calidad.",
+      "tools": "Zapier, OpenAI, Hubspot",
+      "automation": "Calificación automatizada basada en datos de LinkedIn y comportamiento en el sitio web usando análisis de IA.",
+      "result": "Aumento del 40% en la tasa de conversión de lead a oportunidad.",
+      "benefit": "Ventas enfocadas en prospectos de alto valor."
+    },
+    "p4": {
+      "title": "Fábrica de Contenido Automatizada",
+      "problem": "Alto costo y tiempo para la creación de contenido en múltiples canales.",
+      "tools": "Make, Midjourney API, WordPress",
+      "automation": "Investigación, redacción y generación de imágenes automatizadas para blogs semanales y redes sociales.",
+      "result": "Producción de contenido aumentada en 5x con el mismo presupuesto.",
+      "benefit": "Presencia de marca constante y crecimiento en SEO."
+    },
+    "p5": {
+      "title": "Automatización de Infraestructura Cloud",
+      "problem": "Entornos de desarrollo inconsistentes y despliegues lentos.",
+      "tools": "Docker, Node.js, GitHub Actions",
+      "automation": "Contenedorización de microservicios y pipelines de CI/CD automatizados.",
+      "result": "Tiempo de despliegue reducido de horas a minutos.",
+      "benefit": "Mejora en la productividad del desarrollador y estabilidad del sistema."
+    },
+    "p6": {
+      "title": "Automatización de Informes Financieros",
+      "problem": "Agregación manual de datos financieros de fuentes dispares.",
+      "tools": "APIs, Google BigQuery, n8n",
+      "automation": "Extracción de datos, limpieza y actualización de tableros automatizada cada 24 horas.",
+      "result": "Ciclo de planificación financiera acortado en 3 días.",
+      "benefit": "Datos precisos y oportunos para la toma de decisiones ejecutivas."
+    }
+  },
+  "services": {
+    "title": "Soluciones para el Crecimiento del Negocio",
+    "s1": {
+      "title": "Automatización de Flujos de Trabajo",
+      "desc": "Optimice sus operaciones conectando herramientas y eliminando tareas repetitivas."
+    },
+    "s2": {
+      "title": "Integración de IA",
+      "desc": "Implementación de agentes inteligentes y LLMs para mejorar su toma de decisiones y soporte."
+    },
+    "s3": {
+      "title": "Desarrollo de APIs Personalizadas",
+      "desc": "Cerrando la brecha entre sus necesidades únicas de negocio y las herramientas de software existentes."
+    }
+  },
+  "contact": {
+    "title": "Hablemos de tu próximo paso",
+    "subtitle": "Disponible para proyectos globales",
+    "name": "Tu Nombre",
+    "email": "Tu Correo",
+    "message": "¿En qué puedo ayudarte?",
+    "send": "Impulsar mi Negocio",
+    "sending": "Enviando...",
+    "success": "¡Perfecto! Tu mensaje ha llegado. Te contactaré en menos de 24 horas para empezar a optimizar tu flujo.",
+    "linkedin": "Conectar en LinkedIn",
+    "whatsapp": "Escribirme por WhatsApp"
+  },
+  "process": {
+    "title": "Mi Metodología de Trabajo",
+    "s1": {
+      "t": "Auditoría",
+      "d": "Analizo tus flujos actuales para detectar cuellos de botella."
+    },
+    "s2": {
+      "t": "Arquitectura",
+      "d": "Diseño un ecosistema de automatización escalable."
+    },
+    "s3": {
+      "t": "Implementación",
+      "d": "Desarrollo y conecto las herramientas con precisión."
+    },
+    "s4": {
+      "t": "Optimización",
+      "d": "Monitoreo y escalo la solución para resultados máximos."
+    }
+  },
+  "tech": {
+    "title": "Stack Tecnológico de Autoridad"
+  }
+}

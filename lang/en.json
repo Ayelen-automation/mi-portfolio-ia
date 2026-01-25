@@ -1,0 +1,132 @@
+{
+  "title": "AI & Automation Specialist",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "AI & Intelligent Automation Specialist",
+    "name": "María Ayelén Segreti",
+    "subtitle": "Transforming business through scalable automation ecosystems",
+    "cta": "See my work",
+    "cv": "Download CV (ATS-Friendly)"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "Automation Strategist with over 3 years of international experience. My mission is to liberate businesses from operational burdens through custom AI solutions and intelligent workflows. I combine solid technical training with a strategic business vision to ensure every automation creates a real, scalable impact. Committed to excellence and constant innovation, I execute global projects with the rigor demanded by the modern tech industry."
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "level": "Advanced - Continuous Learning",
+    "items": {
+      "automation": "n8n, Make, Zapier",
+      "dev": "Node.js, VSC, Docker",
+      "specialized": "Antigravity, APIs & Credentials",
+      "google": "Google Tools Suite"
+    }
+  },
+  "projects": {
+    "title": "Professional Case Studies",
+    "p1": {
+      "title": "Automated CRM Sync",
+      "problem": "Manual data entry between multiple platforms causing errors and delays.",
+      "tools": "n8n, Salesforce, Google Sheets, Antigravity",
+      "automation": "Real-time bidirectional synchronization with AI-based data validation using Antigravity.",
+      "result": "95% reduction in manual labor and 100% data accuracy.",
+      "benefit": "Increased sales efficiency and real-time reporting."
+    },
+    "p2": {
+      "title": "AI Customer Support Agent",
+      "problem": "Support team overwhelmed by repetitive L1 queries.",
+      "tools": "n8n, OpenAI, Antigravity, Slack",
+      "automation": "Dynamic classification and automated responses for common issues, escalation to humans for complex cases.",
+      "result": "70% of tickets resolved without human intervention.",
+      "benefit": "Faster response times and reduced support costs."
+    },
+    "p3": {
+      "title": "Intelligent Lead Qualification",
+      "problem": "Sales team wasting time on low-quality leads.",
+      "tools": "Zapier, OpenAI, Hubspot",
+      "automation": "Automated scoring based on LinkedIn data and website behavior using AI analysis.",
+      "result": "40% increase in lead-to-opportunity conversion rate.",
+      "benefit": "Sales focused on high-value prospects."
+    },
+    "p4": {
+      "title": "Automated Content Factory",
+      "problem": "High cost and time for multi-channel content creation.",
+      "tools": "Make, Midjourney API, WordPress",
+      "automation": "automated research, drafting, and image generation for weekly blog posts and social media.",
+      "result": "Content production increased by 5x with the same budget.",
+      "benefit": "Consistent brand presence and SEO growth."
+    },
+    "p5": {
+      "title": "Cloud Infrastructure Automation",
+      "problem": "Inconsistent development environments and slow deployments.",
+      "tools": "Docker, Node.js, GitHub Actions",
+      "automation": "Containerization of microservices and automated CI/CD pipelines.",
+      "result": "Deployment time reduced from hours to minutes.",
+      "benefit": "Improved developer productivity and system stability."
+    },
+    "p6": {
+      "title": "Financial Report Automation",
+      "problem": "Manual aggregation of financial data from disparate sources.",
+      "tools": "APIs, Google BigQuery, n8n",
+      "automation": "Automated data extraction, cleaning, and dashboard updates every 24 hours.",
+      "result": "Financial planning cycle shortened by 3 days.",
+      "benefit": "Accurate, timely data for executive decision-making."
+    }
+  },
+  "services": {
+    "title": "Solutions for Business Growth",
+    "s1": {
+      "title": "Workflow Automation",
+      "desc": "Streamline your operations by connecting tools and eliminating repetitive tasks."
+    },
+    "s2": {
+      "title": "AI Integration",
+      "desc": "Implementing intelligent agents and LLMs to enhance your decision-making and support."
+    },
+    "s3": {
+      "title": "Custom API Development",
+      "desc": "Bridging the gap between your unique business needs and existing software tools."
+    }
+  },
+  "contact": {
+    "title": "Let's Talk About Your Next Step",
+    "subtitle": "Available for Global Projects",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "How can I help you?",
+    "send": "Boost My Business",
+    "sending": "Sending...",
+    "success": "Perfect! Your message has arrived. I will contact you in less than 24 hours to start optimizing your workflow.",
+    "linkedin": "Connect on LinkedIn",
+    "whatsapp": "Message me on WhatsApp"
+  },
+  "process": {
+    "title": "My Work Methodology",
+    "s1": {
+      "t": "Audit",
+      "d": "Analyzing your current workflows to detect bottlenecks."
+    },
+    "s2": {
+      "t": "Architecture",
+      "d": "Designing a scalable automation ecosystem."
+    },
+    "s3": {
+      "t": "Implementation",
+      "d": "Developing and connecting tools with surgical precision."
+    },
+    "s4": {
+      "t": "Optimization",
+      "d": "Monitoring and scaling for maximum business impact."
+    }
+  },
+  "tech": {
+    "title": "Authoritative Tech Stack"
+  }
+}
