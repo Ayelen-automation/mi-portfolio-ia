@@ -49,17 +49,12 @@
                 <div class="availability-badge">
                     <span class="dot"></span> Disponible para nuevos proyectos
                 </div>
-                <h1 data-i18n="hero.role" style="font-size: 4.5rem; margin-bottom: 0.5rem;"></h1>
-                <p data-i18n="hero.name"
-                    style="font-size: 1.5rem; color: var(--accent-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 2rem;">
-                </p>
-                <p data-i18n="hero.subtitle"
-                    style="font-size: 1.8rem; color: var(--text-muted); margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-                </p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <h1 data-i18n="hero.role"></h1>
+                <p data-i18n="hero.name" class="hero-name"></p>
+                <p data-i18n="hero.subtitle" class="hero-subtitle"></p>
+                <div class="hero-btns">
                     <a href="#projects" class="btn btn-primary" data-i18n="hero.cta">Ver mi trabajo</a>
-                    <a href="/public/CV_MariAyelenSegreti_ATS.pdf" download class="btn"
-                        style="border: 1px solid var(--accent-blue); color: var(--accent-blue); background: transparent;"
+                    <a href="/public/CV_MariAyelenSegreti_ATS.pdf" download class="btn btn-outline"
                         data-i18n="hero.cv">Descargar CV</a>
                 </div>
             </div>
@@ -70,14 +65,13 @@
     <section class="section" id="about">
         <div class="container">
             <div class="glass reveal" style="padding: 3rem; text-align: center;">
-                <h2 data-i18n="about.title" style="margin-bottom: 2rem;">Sobre mí</h2>
-                <div style="display: flex; flex-wrap: wrap; gap: 3rem; align-items: center; justify-content: center;">
-                    <div style="flex: 1; min-width: 300px; text-align: left;">
-                        <p data-i18n="about.text" style="font-size: 1.1rem; color: var(--text-muted);"></p>
+                <h2 data-i18n="about.title">Sobre mí</h2>
+                <div class="about-flex">
+                    <div class="about-text">
+                        <p data-i18n="about.text"></p>
                     </div>
-                    <div style="flex: 0 0 250px;">
-                        <img src="/public/profile_real.png" alt="María Ayelén Segreti"
-                            style="width: 100%; border-radius: 50%; border: 4px solid var(--accent-violet);">
+                    <div class="about-img">
+                        <img src="/public/profile_real.png" alt="María Ayelén Segreti">
                     </div>
                 </div>
             </div>
@@ -116,7 +110,7 @@
     <section class="section" id="process" style="background: rgba(58, 134, 255, 0.02);">
         <div class="container reveal">
             <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 4rem;">Mi Metodología</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <div class="process-grid">
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
                     <span
                         style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">01</span>
