@@ -1,4 +1,4 @@
-let currentLang = 'en';
+let currentLang = 'es';
 let translations = {};
 
 async function loadTranslations(lang) {
@@ -20,7 +20,8 @@ function renderProjects() {
     const projectKeys = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'];
 
     projectKeys.forEach(key => {
-        const p = translations.projects[key];
+        const p = translations.projects ? translations.projects[key] : null;
+        if (!p) return;
         const card = document.createElement('div');
         card.className = 'glass project-card animate-fade-in';
         card.innerHTML = `

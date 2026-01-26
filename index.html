@@ -45,13 +45,14 @@
     <header class="hero" id="home">
         <canvas id="hero-canvas"></canvas>
         <div class="container hero-content">
-            <div class="animate-fade-in">
+            <div class="hero-main-box">
                 <div class="availability-badge">
                     <span class="dot"></span> Disponible para nuevos proyectos
                 </div>
-                <h1 data-i18n="hero.role"></h1>
-                <p data-i18n="hero.name" class="hero-name"></p>
-                <p data-i18n="hero.subtitle" class="hero-subtitle"></p>
+                <h1 data-i18n="hero.role">Especialista en IA y Automatización Inteligente</h1>
+                <p data-i18n="hero.name" class="hero-name">María Ayelén Segreti</p>
+                <p data-i18n="hero.subtitle" class="hero-subtitle">Transformando negocios mediante ecosistemas de
+                    automatización escalables</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn btn-primary" data-i18n="hero.cta">Ver mi trabajo</a>
                     <a href="/public/CV_MariAyelenSegreti_ATS.pdf" download class="btn btn-outline"
@@ -64,11 +65,13 @@
     <!-- About Section -->
     <section class="section" id="about">
         <div class="container">
-            <div class="glass reveal" style="padding: 3rem; text-align: center;">
+            <div class="glass about-card" style="padding: clamp(1.5rem, 5vw, 3rem); text-align: center;">
                 <h2 data-i18n="about.title">Sobre mí</h2>
                 <div class="about-flex">
                     <div class="about-text">
-                        <p data-i18n="about.text"></p>
+                        <p data-i18n="about.text">Estratega de Automatización con más de 3 años de trayectoria
+                            internacional. Mi misión es liberar a las empresas de la carga operativa mediante soluciones
+                            de IA personalizadas y flujos de trabajo inteligentes.</p>
                     </div>
                     <div class="about-img">
                         <img src="/public/profile_real.png" alt="María Ayelén Segreti">
@@ -109,31 +112,36 @@
     <!-- Methodology / Process Section -->
     <section class="section" id="process" style="background: rgba(58, 134, 255, 0.02);">
         <div class="container reveal">
-            <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 4rem;">Mi Metodología</h2>
+            <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 4rem;">Mi Metodología de Trabajo
+            </h2>
             <div class="process-grid">
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
                     <span
                         style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">01</span>
                     <h3 data-i18n="process.s1.t" style="color: var(--accent-blue);">Auditoría</h3>
-                    <p data-i18n="process.s1.d" style="color: var(--text-muted);"></p>
+                    <p data-i18n="process.s1.d" style="color: var(--text-muted);">Analizo tus flujos actuales para
+                        detectar cuellos de botella.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
                     <span
                         style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">02</span>
                     <h3 data-i18n="process.s2.t" style="color: var(--accent-violet);">Arquitectura</h3>
-                    <p data-i18n="process.s2.d" style="color: var(--text-muted);"></p>
+                    <p data-i18n="process.s2.d" style="color: var(--text-muted);">Diseño un ecosistema de automatización
+                        escalable.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
                     <span
                         style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">03</span>
                     <h3 data-i18n="process.s3.t" style="color: var(--accent-pink);">Implementación</h3>
-                    <p data-i18n="process.s3.d" style="color: var(--text-muted);"></p>
+                    <p data-i18n="process.s3.d" style="color: var(--text-muted);">Desarrollo y conecto las herramientas
+                        con precisión.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
                     <span
                         style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">04</span>
                     <h3 data-i18n="process.s4.t" style="color: #fff;">Optimización</h3>
-                    <p data-i18n="process.s4.d" style="color: var(--text-muted);"></p>
+                    <p data-i18n="process.s4.d" style="color: var(--text-muted);">Monitoreo y escalo la solución para
+                        resultados máximos.</p>
                 </div>
             </div>
         </div>
@@ -142,7 +150,8 @@
     <!-- Projects Section -->
     <section class="section" id="projects">
         <div class="container">
-            <h2 data-i18n="projects.title" style="text-align: center; margin-bottom: 4rem;">Casos de Estudio</h2>
+            <h2 data-i18n="projects.title" style="text-align: center; margin-bottom: 4rem;">Casos de Estudio
+                Profesionales</h2>
             <div class="project-grid" id="project-list">
                 <!-- Data injected via main.js -->
             </div>
@@ -152,19 +161,23 @@
     <!-- Services Section -->
     <section class="section" id="services">
         <div class="container reveal">
-            <h2 data-i18n="services.title" style="text-align: center; margin-bottom: 4rem;">Servicios</h2>
+            <h2 data-i18n="services.title" style="text-align: center; margin-bottom: 4rem;">Soluciones para el
+                Crecimiento del Negocio</h2>
             <div class="services-grid">
                 <div class="glass service-card">
                     <h3 data-i18n="services.s1.title">Flujos de Trabajo</h3>
-                    <p data-i18n="services.s1.desc"></p>
+                    <p data-i18n="services.s1.desc">Optimice sus operaciones conectando herramientas y eliminando tareas
+                        repetitivas.</p>
                 </div>
                 <div class="glass service-card">
                     <h3 data-i18n="services.s2.title">IA Integración</h3>
-                    <p data-i18n="services.s2.desc"></p>
+                    <p data-i18n="services.s2.desc">Implementación de agentes inteligentes y LLMs para mejorar su toma
+                        de decisiones y soporte.</p>
                 </div>
                 <div class="glass service-card">
                     <h3 data-i18n="services.s3.title">Custom APIs</h3>
-                    <p data-i18n="services.s3.desc"></p>
+                    <p data-i18n="services.s3.desc">Cerrando la brecha entre sus necesidades únicas de negocio y las
+                        herramientas de software existentes.</p>
                 </div>
             </div>
         </div>
@@ -176,7 +189,8 @@
             <div class="glass reveal contact-container">
                 <h2 data-i18n="contact.title" style="text-align: center; margin-bottom: 1rem;">Hablemos</h2>
                 <p data-i18n="contact.subtitle"
-                    style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;"></p>
+                    style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;">Disponible para proyectos
+                    globales</p>
                 <form id="contact-form" action="https://formspree.io/f/xvgzpjzk" method="POST">
                     <div class="form-group">
                         <input type="text" name="name" data-i18n="contact.name" required>

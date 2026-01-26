@@ -72,9 +72,9 @@ h3 {
 }
 
 .glass:hover {
-  border-color: rgba(58, 134, 255, 0.3);
-  box-shadow: 0 0 30px rgba(58, 134, 255, 0.1);
-  transform: translateY(-5px);
+  border-color: var(--accent-blue);
+  box-shadow: 0 20px 40px rgba(58, 134, 255, 0.2);
+  transform: translateY(-8px);
 }
 
 /* Animations */
@@ -103,6 +103,13 @@ h3 {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Fallback for sections that should always be visible */
+.hero-content,
+.about-card {
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 /* Buttons */
@@ -233,13 +240,12 @@ nav.scrolled {
 
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background: radial-gradient(circle at center, #111432 0%, var(--primary-bg) 100%);
-  overflow: hidden;
 }
 
 #hero-canvas {
@@ -256,6 +262,12 @@ nav.scrolled {
   position: relative;
   z-index: 2;
   width: 100%;
+  padding-top: 80px;
+  /* Space for fixed navbar */
+}
+
+.hero-main-box {
+  opacity: 1;
 }
 
 .availability-badge {
@@ -264,11 +276,11 @@ nav.scrolled {
   gap: 8px;
   background: rgba(37, 211, 102, 0.1);
   color: #25d366;
-  padding: 6px 16px;
+  padding: clamp(4px, 2vw, 6px) clamp(10px, 4vw, 16px);
   border-radius: 100px;
-  font-size: 0.85rem;
+  font-size: clamp(0.75rem, 3vw, 0.85rem);
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: clamp(1rem, 5vw, 2rem);
   border: 1px solid rgba(37, 211, 102, 0.2);
 }
 
@@ -299,7 +311,7 @@ nav.scrolled {
 }
 
 .hero-content h1 {
-  font-size: clamp(2.5rem, 10vw, 4.5rem);
+  font-size: clamp(2.2rem, 10vw, 4.5rem);
   margin-bottom: 0.5rem;
   background: linear-gradient(to right, #fff, var(--accent-blue));
   -webkit-background-clip: text;
@@ -323,6 +335,7 @@ nav.scrolled {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 1rem;
 }
 
 .hero-btns {
@@ -339,8 +352,10 @@ nav.scrolled {
 }
 
 .btn-outline:hover {
-  background: rgba(58, 134, 255, 0.1);
+  background: var(--accent-blue);
+  color: white;
   transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(58, 134, 255, 0.2);
 }
 
 /* Skills Grid */
@@ -511,15 +526,22 @@ footer {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 70%;
-    height: 100vh;
-    background: var(--secondary-bg);
+    width: 100%;
+    height: 100dvh;
+    background: rgba(10, 11, 30, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: var(--transition-smooth);
+    gap: 3rem;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
     z-index: 999;
-    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-links a {
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 
   .nav-links.active {
@@ -536,7 +558,8 @@ footer {
   }
 
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
   }
 
   .section {
@@ -550,44 +573,48 @@ footer {
 
   .about-img {
     order: -1;
-    flex: 0 0 200px;
-  }
-
-  .contact-container {
-    padding: 2.5rem 1.5rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
+    order: 1;
+    flex: 0 0 180px;
     margin-bottom: 2rem;
   }
 
-  .social-links {
-    flex-direction: column;
+  .contact-container {
+    padding: 2.5rem 1.2rem;
   }
 
-  .social-links .btn {
-    width: 100%;
-    justify-content: center;
+  h2 {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .skills-grid,
+  .project-grid,
+  .process-grid,
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .hero-content h1 {
-    font-size: 2.22rem;
+    font-size: 2.1rem;
+    padding: 0 10px;
   }
 
   .btn {
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
   }
 
   .hero-btns {
     flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
   }
 
   .availability-badge {
-    font-size: 0.75rem;
-    padding: 4px 12px;
+    margin-bottom: 1.5rem;
   }
 }
