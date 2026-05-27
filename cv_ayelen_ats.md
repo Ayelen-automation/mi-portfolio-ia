@@ -4,7 +4,7 @@
 **Ubicación:** Mendoza, Argentina (Disponible para trabajo 100% remoto)
 **Email:** Ayelensegreti.automation@gmail.com
 **WhatsApp:** +54 9 261 338 7829
-**LinkedIn:** https://www.linkedin.com/in/mariaayelensegreti/
+**LinkedIn:** [https://www.linkedin.com/in/mariaayelensegreti/](https://www.linkedin.com/in/mariaayelensegreti/)
 
 ---
 
