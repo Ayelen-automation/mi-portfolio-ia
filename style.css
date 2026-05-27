@@ -52,7 +52,7 @@ h3 {
 }
 
 .section {
-  padding: clamp(4rem, 10vw, 6rem) 0;
+  padding: clamp(3rem, 6vw, 4.5rem) 0;
 }
 
 .container {
@@ -325,13 +325,13 @@ nav.scrolled {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 4vw, 1.8rem);
   color: var(--text-muted);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -346,7 +346,7 @@ nav.scrolled {
 }
 
 .hero-btns .btn {
-  min-width: 250px;
+  min-width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -493,7 +493,7 @@ nav.scrolled {
 .contact-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .form-group {
@@ -519,7 +519,7 @@ textarea:focus {
 
 footer {
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
   color: var(--text-muted);
   font-size: 0.9rem;
 }
@@ -570,7 +570,7 @@ footer {
   }
 
   .section {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .about-text {
