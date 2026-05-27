@@ -67,4 +67,3 @@ Especialista en automatización de procesos y agentes de IA, con foco en n8n, in
 ## IDIOMAS
 
 * **Español:** Nativo
-* **Inglés:** Nivel básico (A2) — en desarrollo
