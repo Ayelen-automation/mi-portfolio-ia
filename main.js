@@ -147,7 +147,7 @@ function setupReveal() {
                 entry.target.classList.add('active');
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.02, rootMargin: '0px 0px -20px 0px' });
 
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 }
