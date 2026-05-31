@@ -230,6 +230,8 @@ nav.scrolled {
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
+  padding: 12px;
+  margin: -12px;
 }
 
 .mobile-menu-btn span {
