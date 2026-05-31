@@ -18,12 +18,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background-color: var(--primary-bg);
   color: var(--text-main);
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 h1,
@@ -385,7 +391,7 @@ nav.scrolled {
 
 .about-text {
   flex: 1;
-  min-width: 300px;
+  min-width: min(300px, 100%);
   text-align: left;
 }
 
@@ -619,7 +625,11 @@ footer {
   .hero-btns {
     flex-direction: column;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0;
+  }
+
+  .social-links {
+    flex-direction: column;
   }
 
   .availability-badge {
