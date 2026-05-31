@@ -111,6 +111,13 @@ h3 {
   transform: translateY(0);
 }
 
+@media (max-width: 768px) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* Fallback for sections that should always be visible */
 .hero-content,
 .about-card {
