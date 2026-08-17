@@ -25,16 +25,13 @@ function renderProjects() {
         const card = document.createElement('div');
         card.className = 'glass project-card animate-fade-in';
         card.innerHTML = `
-            ${p.image ? \`<div class="project-image-container"><img src="\${p.image}" alt="\${p.title}" class="project-image"></div>\` : ''}
-            <div class="project-content">
-                <span class="label">Case Study</span>
-                <h3>${p.title}</h3>
-                <p><strong>Problem:</strong> ${p.problem}</p>
-                <p><strong>Automation:</strong> ${p.automation}</p>
-                <p class="tools"><strong>Tools:</strong> ${p.tools}</p>
-                <p><strong>Result:</strong> ${p.result}</p>
-                <p style="color: #fff; font-weight: 600;">Benefit: ${p.benefit}</p>
-            </div>
+            <span class="label">Case Study</span>
+            <h3>${p.title}</h3>
+            <p><strong>Problema:</strong> ${p.problem}</p>
+            <p><strong>Solución:</strong> ${p.automation}</p>
+            <p class="tools">⚙ ${p.tools}</p>
+            <p><strong>Resultado:</strong> ${p.result}</p>
+            <p class="result-highlight">✦ ${p.benefit}</p>
         `;
         list.appendChild(card);
     });
