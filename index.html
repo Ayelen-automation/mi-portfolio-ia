@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css?v=6">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/vite.svg">
 </head>
@@ -65,14 +65,32 @@
     <!-- About Section -->
     <section class="section" id="about">
         <div class="container">
-            <div class="glass about-card" style="padding: clamp(1.5rem, 5vw, 3rem); text-align: center;">
-                <h2 data-i18n="about.title">Sobre mí</h2>
+            <div class="glass about-card">
                 <div class="about-flex">
-                    <div class="about-text">
-                        <p data-i18n="about.text">Especialista en automatización de procesos y agentes de IA, con foco en n8n, integraciones vía API REST y arquitectura de workflows end-to-end. Mi formación es 100% práctica: construí mi expertise automatizando procesos reales para empresas. No solo conecto herramientas; diseño la lógica detrás de cada flujo para que sea robusto, escalable y fácil de mantener. Entiendo la lógica de negocio, lo que me permite traducir lo que una empresa necesita en sistemas que funcionan de verdad, sin over-engineering.</p>
-                    </div>
                     <div class="about-img">
                         <img src="/profile_real.png" alt="María Ayelén Segreti">
+                    </div>
+                    <div class="about-text">
+                        <h2 data-i18n="about.title" style="font-size: clamp(1.8rem,4vw,2.6rem); margin-bottom:1rem;">Sobre mí</h2>
+                        <p data-i18n="about.text">Especialista en automatización de procesos y agentes de IA...</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Años de experiencia</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">40%</span>
+                                <span class="stat-label">Reducción de costos IA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Remoto &amp; Global</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Errores en facturación</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,39 +122,72 @@
         </div>
     </section>
 
+    <!-- Workflow Showcase Marquee -->
+    <div class="workflow-marquee-section">
+        <div class="marquee-label">// Flujos Reales en Producción</div>
+        <div class="marquee-track-wrapper">
+            <div class="marquee-track">
+                <div class="marquee-item">
+                    <img src="/n8n-1.png" alt="Agente IA Multi-Modelo">
+                    <span>Agente IA Multi-Modelo</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-2.png" alt="Pipeline PDF a Podcast">
+                    <span>Pipeline PDF → Podcast</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-3.png" alt="Agente RAG Conversacional">
+                    <span>Agente RAG Conversacional</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-4.png" alt="Autopiloto de Ventas">
+                    <span>Autopiloto de Ventas</span>
+                </div>
+                <!-- Duplicate for seamless loop -->
+                <div class="marquee-item">
+                    <img src="/n8n-1.png" alt="Agente IA Multi-Modelo">
+                    <span>Agente IA Multi-Modelo</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-2.png" alt="Pipeline PDF a Podcast">
+                    <span>Pipeline PDF → Podcast</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-3.png" alt="Agente RAG Conversacional">
+                    <span>Agente RAG Conversacional</span>
+                </div>
+                <div class="marquee-item">
+                    <img src="/n8n-4.png" alt="Autopiloto de Ventas">
+                    <span>Autopiloto de Ventas</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Methodology / Process Section -->
-    <section class="section" id="process" style="background: rgba(58, 134, 255, 0.02);">
+    <section class="section" id="process" style="background: rgba(147, 51, 234, 0.03);">
         <div class="container reveal">
-            <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 2.5rem;">Mi Metodología de Trabajo
-            </h2>
+            <h2 data-i18n="process.title" style="text-align: center; margin-bottom: 2.5rem;">Metodología de Ingeniería</h2>
             <div class="process-grid">
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
-                    <span
-                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">01</span>
-                    <h3 data-i18n="process.s1.t" style="color: var(--accent-blue);">Auditoría</h3>
-                    <p data-i18n="process.s1.d" style="color: var(--text-muted);">Analizo tus flujos actuales para
-                        detectar cuellos de botella.</p>
+                    <span style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.08; font-weight: 900; color: var(--accent-fuchsia);">01</span>
+                    <h3 data-i18n="process.s1.t" style="color: var(--accent-fuchsia);">Auditoría</h3>
+                    <p data-i18n="process.s1.d" style="color: var(--text-muted);">Análisis profundo de la lógica de negocio y cuellos de botella.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
-                    <span
-                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">02</span>
-                    <h3 data-i18n="process.s2.t" style="color: var(--accent-violet);">Arquitectura</h3>
-                    <p data-i18n="process.s2.d" style="color: var(--text-muted);">Diseño un ecosistema de automatización
-                        escalable.</p>
+                    <span style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.08; font-weight: 900; color: var(--accent-purple);">02</span>
+                    <h3 data-i18n="process.s2.t" style="color: var(--accent-purple);">Arquitectura</h3>
+                    <p data-i18n="process.s2.d" style="color: var(--text-muted);">Diseño del ecosistema de automatización sin over-engineering.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
-                    <span
-                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">03</span>
-                    <h3 data-i18n="process.s3.t" style="color: var(--accent-pink);">Implementación</h3>
-                    <p data-i18n="process.s3.d" style="color: var(--text-muted);">Desarrollo y conecto las herramientas
-                        con precisión.</p>
+                    <span style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.08; font-weight: 900; color: var(--accent-pink);">03</span>
+                    <h3 data-i18n="process.s3.t" style="color: var(--accent-pink);">Despliegue</h3>
+                    <p data-i18n="process.s3.d" style="color: var(--text-muted);">Implementación de flujos resilientes con manejo de errores.</p>
                 </div>
                 <div class="glass" style="padding: 2rem; position: relative; overflow: hidden;">
-                    <span
-                        style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.1; font-weight: 900;">04</span>
-                    <h3 data-i18n="process.s4.t" style="color: #fff;">Optimización</h3>
-                    <p data-i18n="process.s4.d" style="color: var(--text-muted);">Monitoreo y escalo la solución para
-                        resultados máximos.</p>
+                    <span style="position: absolute; top: -10px; right: -10px; font-size: 4rem; opacity: 0.08; font-weight: 900; color: #a78bfa;">04</span>
+                    <h3 data-i18n="process.s4.t" style="color: #a78bfa;">Monitoreo</h3>
+                    <p data-i18n="process.s4.d" style="color: var(--text-muted);">Supervisión de métricas y escalado de la solución.</p>
                 </div>
             </div>
         </div>
