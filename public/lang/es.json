@@ -11,7 +11,7 @@
   "hero": {
     "role": "AI Automation Engineer & Workflow Architect",
     "name": "María Ayelén Segreti",
-    "subtitle": "Arquitectura de automatización y agentes de IA para operaciones críticas. Menos trabajo manual, cero errores y escalabilidad real.",
+    "subtitle": "Diseño ecosistemas de automatización y agentes de IA que eliminan tareas repetitivas, optimizan costos y escalan operaciones críticas. Tecnología de vanguardia aplicada a resultados de negocio.",
     "cta": "Ver mi trabajo",
     "cv": "Descargar CV (ATS-Friendly)"
   },
@@ -32,6 +32,7 @@
   "projects": {
     "title": "Casos de Estudio: Arquitectura n8n",
     "p1": {
+      "image": "/n8n-1.png",
       "title": "Agente IA Multi-Modelo con Fallback",
       "problem": "Altos costos operativos en IA y fallos ocasionales por indisponibilidad de la API principal.",
       "tools": "n8n, Gemini Pro/Flash, Telegram, Google Sheets",
@@ -40,6 +41,7 @@
       "benefit": "Operación continua y optimización extrema de costos API."
     },
     "p2": {
+      "image": "/n8n-2.png",
       "title": "Pipeline End-to-End: PDF a Podcast",
       "problem": "Cuellos de botella en la producción de contenido auditivo a partir de documentos técnicos extensos.",
       "tools": "n8n, Azure TTS, GPT-4, Google Drive",
@@ -48,6 +50,7 @@
       "benefit": "Escalabilidad en la creación de contenido multicanal sin pérdida de calidad."
     },
     "p3": {
+      "image": "/n8n-3.png",
       "title": "Agente RAG Conversacional con Memoria",
       "problem": "Falta de contexto histórico en las interacciones del bot de soporte con usuarios recurrentes.",
       "tools": "n8n, Google Gemini, Sheets, Telegram",
@@ -56,12 +59,31 @@
       "benefit": "Experiencia de usuario fluida y reducción de escalado a soporte humano."
     },
     "p4": {
+      "image": "/n8n-4.png",
       "title": "Autopiloto de Ventas (Affiliate Marketing)",
       "problem": "Baja tasa de conversión y mucho tiempo invertido en la búsqueda de assets para redes sociales.",
       "tools": "n8n, Pexels API, Python, Telegram",
       "automation": "Funnel de ventas automatizado que evalúa límites diarios, extrae prompts de catálogos aprobados, busca video stock y orquesta renderizado vía motor Python.",
       "result": "Creación y publicación de campañas 100% autónomas.",
       "benefit": "Escalado agresivo de campañas de marketing con cero intervención manual."
+    },
+    "p5": {
+      "image": "/n8n-5.png",
+      "title": "Sistema de Onboarding Automatizado",
+      "problem": "Retrasos de varios días en la creación de cuentas, permisos y bienvenida para nuevos empleados/clientes.",
+      "tools": "n8n, Slack, Google Workspace, Airtable",
+      "automation": "Orquestación paralela que, al recibir un nuevo registro, provisiona accesos en 5 plataformas simultáneamente y envía mensajes de bienvenida por Slack.",
+      "result": "100% de automatización en el proceso de alta.",
+      "benefit": "Experiencia de usuario instantánea y eliminación de tareas administrativas."
+    },
+    "p6": {
+      "image": "/n8n-6.png",
+      "title": "Extracción y Análisis de Facturas OCR",
+      "problem": "Horas perdidas cada semana cargando manualmente datos de facturas en PDF al sistema contable.",
+      "tools": "n8n, Google Document AI, QuickBooks API",
+      "automation": "Clasificador visual de correos entrantes que procesa PDFs mediante IA de visión, estructura JSON, y empuja directamente al ERP, alertando solo inconsistencias.",
+      "result": "98% de precisión en captura de datos, ahorrando 15 horas semanales.",
+      "benefit": "Contabilidad en tiempo real sin fricción humana."
     }
   },
   "services": {

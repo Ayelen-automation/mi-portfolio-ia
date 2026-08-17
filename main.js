@@ -17,7 +17,7 @@ function renderProjects() {
     if (!list) return;
 
     list.innerHTML = '';
-    const projectKeys = ['p1', 'p2', 'p3', 'p4'];
+    const projectKeys = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'];
 
     projectKeys.forEach(key => {
         const p = translations.projects ? translations.projects[key] : null;
@@ -25,13 +25,16 @@ function renderProjects() {
         const card = document.createElement('div');
         card.className = 'glass project-card animate-fade-in';
         card.innerHTML = `
-            <span class="label">Case Study</span>
-            <h3>${p.title}</h3>
-            <p><strong>Problem:</strong> ${p.problem}</p>
-            <p><strong>Automation:</strong> ${p.automation}</p>
-            <p class="tools"><strong>Tools:</strong> ${p.tools}</p>
-            <p><strong>Result:</strong> ${p.result}</p>
-            <p style="color: #fff; font-weight: 600;">Benefit: ${p.benefit}</p>
+            ${p.image ? \`<div class="project-image-container"><img src="\${p.image}" alt="\${p.title}" class="project-image"></div>\` : ''}
+            <div class="project-content">
+                <span class="label">Case Study</span>
+                <h3>${p.title}</h3>
+                <p><strong>Problem:</strong> ${p.problem}</p>
+                <p><strong>Automation:</strong> ${p.automation}</p>
+                <p class="tools"><strong>Tools:</strong> ${p.tools}</p>
+                <p><strong>Result:</strong> ${p.result}</p>
+                <p style="color: #fff; font-weight: 600;">Benefit: ${p.benefit}</p>
+            </div>
         `;
         list.appendChild(card);
     });
