@@ -1,14 +1,14 @@
 :root {
-  /* Color Palette - Premium Blue/Violet/Dark Pink */
-  --primary-bg: #0a0b1e;
-  --secondary-bg: #151632;
-  --accent-blue: #3a86ff;
-  --accent-violet: #8338ec;
-  --accent-pink: #ff006e;
-  --text-main: #e0e1dd;
-  --text-muted: #a0a1b8;
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  /* Color Palette - Premium Violet/Feminine */
+  --primary-bg: #0d0914;
+  --secondary-bg: #171026;
+  --accent-blue: #9333ea; /* Deep Purple */
+  --accent-violet: #d946ef; /* Fuchsia/Pink */
+  --accent-pink: #f472b6; /* Soft Pink */
+  --text-main: #f3e8ff;
+  --text-muted: #d8b4fe;
+  --glass-bg: rgba(217, 70, 239, 0.05);
+  --glass-border: rgba(217, 70, 239, 0.15);
   --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -261,7 +261,7 @@ nav.scrolled {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: radial-gradient(circle at center, #111432 0%, var(--primary-bg) 100%);
+  background: radial-gradient(circle at center, #1b1230 0%, var(--primary-bg) 100%);
 }
 
 #hero-canvas {

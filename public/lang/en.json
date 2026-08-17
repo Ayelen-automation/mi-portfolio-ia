@@ -1,129 +1,113 @@
 {
-  "title": "AI & Automation Specialist",
+  "title": "María Ayelén Segreti | AI Automation Engineer",
   "nav": {
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-    "projects": "Projects",
+    "projects": "Case Studies",
     "services": "Services",
     "contact": "Contact"
   },
   "hero": {
-    "role": "AI Specialist, Automation & Full Stack Developer",
+    "role": "AI Automation Engineer & Workflow Architect",
     "name": "María Ayelén Segreti",
-    "subtitle": "Transforming businesses through scalable automation ecosystems and high-impact digital solutions",
-    "cta": "See my work",
+    "subtitle": "Automation architecture and AI agents for critical operations. Less manual work, zero errors, and true scalability.",
+    "cta": "View my work",
     "cv": "Download CV (ATS-Friendly)"
   },
   "about": {
     "title": "About Me",
-    "text": "AI & Automation Strategist with 3+ years of international experience, now expanding horizons into Full Stack Development. My mission is to liberate businesses from operational burdens through custom software solutions, mobile apps, and intelligent workflows that create real, scalable impact."
+    "text": "Process automation and AI agent specialist, focused on n8n, REST API integrations, and end-to-end workflow architecture. My background is 100% practical: I built my expertise by automating real processes for companies. I don't just connect tools; I design the logic behind each flow to be robust, scalable, and easy to maintain. I understand business logic, allowing me to translate business needs into systems that actually work, without over-engineering."
   },
   "skills": {
     "title": "Technical Expertise",
     "level": "Advanced - Continuous Learning",
     "items": {
-      "automation": "n8n, Make, Zapier",
-      "dev": "Node.js, React, Next.js, Docker",
-      "specialized": "Antigravity, Android/iOS (React Native)",
-      "google": "Google Tools Suite"
+      "automation": "n8n (Expert), Make, Zapier",
+      "dev": "Python, Node.js, REST API, Docker",
+      "specialized": "LangChain, RAG, Prompt Engineering",
+      "google": "Gemini, OpenAI, Claude, Pinecone"
     }
   },
   "projects": {
-    "title": "Professional Case Studies",
+    "title": "Case Studies: n8n Architecture",
     "p1": {
-      "title": "Automated CRM Sync",
-      "problem": "Manual data entry between multiple platforms causing errors and delays.",
-      "tools": "n8n, Salesforce, Google Sheets, Antigravity",
-      "automation": "Real-time bidirectional synchronization with AI-based data validation using Antigravity.",
-      "result": "95% reduction in manual labor and 100% data accuracy.",
-      "benefit": "Increased sales efficiency and real-time reporting."
+      "title": "Multi-Model AI Agent with Fallback",
+      "problem": "High AI operational costs and occasional failures due to primary API downtime.",
+      "tools": "n8n, Gemini Pro/Flash, Telegram, Google Sheets",
+      "automation": "Resilient orchestration system with Dynamic Selector. Evaluates response quality and automatically retries (Error Trigger) switching models upon failure.",
+      "result": "40% reduction in AI spend and 0% service interruption.",
+      "benefit": "Continuous operation and extreme API cost optimization."
     },
     "p2": {
-      "title": "AI Customer Support Agent",
-      "problem": "Support team overwhelmed by repetitive L1 queries.",
-      "tools": "n8n, OpenAI, Antigravity, Slack",
-      "automation": "Dynamic classification and automated responses for common issues, escalation to humans for complex cases.",
-      "result": "70% of tickets resolved without human intervention.",
-      "benefit": "Faster response times and reduced support costs."
+      "title": "End-to-End Pipeline: PDF to Podcast",
+      "problem": "Bottlenecks in audio content production from extensive technical documents.",
+      "tools": "n8n, Azure TTS, GPT-4, Google Drive",
+      "automation": "Ingestion flow extracting text from PDFs, applying AI semantic cleaning, requiring human approval via Telegram, and synthesizing voice to generate an RSS XML.",
+      "result": "Production time reduced from 4 hours to 15 minutes.",
+      "benefit": "Scalability in multi-channel content creation without quality loss."
     },
     "p3": {
-      "title": "Intelligent Lead Qualification",
-      "problem": "Sales team wasting time on low-quality leads.",
-      "tools": "Zapier, OpenAI, Hubspot",
-      "automation": "Automated scoring based on LinkedIn data and website behavior using AI analysis.",
-      "result": "40% increase in lead-to-opportunity conversion rate.",
-      "benefit": "Sales focused on high-value prospects."
+      "title": "Conversational RAG Agent with Memory",
+      "problem": "Lack of historical context in support bot interactions with returning users.",
+      "tools": "n8n, Google Gemini, Sheets, Telegram",
+      "automation": "Intelligent chatbot that dynamically queries a history in Sheets, extracting conversational memory before generating contextualized responses.",
+      "result": "100% accurate and contextual responses for users.",
+      "benefit": "Seamless user experience and reduction in human support escalations."
     },
     "p4": {
-      "title": "Automated Content Factory",
-      "problem": "High cost and time for multi-channel content creation.",
-      "tools": "Make, Midjourney API, WordPress",
-      "automation": "automated research, drafting, and image generation for weekly blog posts and social media.",
-      "result": "Content production increased by 5x with the same budget.",
-      "benefit": "Consistent brand presence and SEO growth."
-    },
-    "p5": {
-      "title": "Premium Landing Page Development",
-      "problem": "Businesses with low web conversion due to generic, slow designs.",
-      "tools": "React, Next.js, Tailwind CSS",
-      "automation": "Modular architecture optimized for SEO and ultra-fast loading speed.",
-      "result": "25% increase in user retention.",
-      "benefit": "Professional digital presence that converts visits into customers."
-    },
-    "p6": {
-      "title": "Mobile Applications (Android/iOS)",
-      "problem": "Need for mobile accessibility for customers on the go.",
-      "tools": "React Native, Firebase, Expo",
-      "automation": "Cross-platform development with push notifications and cloud synchronization.",
-      "result": "Seamless native experience on both platforms with a single codebase.",
-      "benefit": "Massive reach and mobile user loyalty."
+      "title": "Sales Autopilot (Affiliate Marketing)",
+      "problem": "Low conversion rates and high time investment in sourcing social media assets.",
+      "tools": "n8n, Pexels API, Python, Telegram",
+      "automation": "Automated sales funnel evaluating daily limits, extracting prompts from approved catalogs, sourcing stock video, and orchestrating rendering via a Python engine.",
+      "result": "100% autonomous campaign creation and publishing.",
+      "benefit": "Aggressive scaling of marketing campaigns with zero manual intervention."
     }
   },
   "services": {
-    "title": "Solutions for Business Growth",
+    "title": "High-Level Solutions",
     "s1": {
-      "title": "Workflow Automation",
-      "desc": "Streamline your operations by connecting tools and eliminating repetitive tasks."
+      "title": "Workflow Orchestration (BPA)",
+      "desc": "Robust automation systems using n8n, focused on fault tolerance and total elimination of repetitive work."
     },
     "s2": {
-      "title": "AI Integration",
-      "desc": "Implementing intelligent agents and LLMs to enhance your decision-making and support."
+      "title": "AI Agent Architecture",
+      "desc": "Design and implementation of multi-agent systems, RAG integrations, and dynamic LLM evaluation."
     },
     "s3": {
-      "title": "Full Stack Development (Web & Mobile)",
-      "desc": "Creation of modern web applications and professional mobile apps designed to scale."
+      "title": "API Integration & DevOps",
+      "desc": "Connecting legacy systems via REST APIs, Python/Node scripts, and self-hosted Docker deployments."
     }
   },
   "contact": {
-    "title": "Let's Talk About Your Next Step",
-    "subtitle": "Available for Global Projects",
+    "title": "Let's Talk Architecture",
+    "subtitle": "Available for 100% remote work | Mendoza, Argentina",
     "name": "Your Name",
     "email": "Your Email",
-    "message": "How can I help you?",
-    "send": "Boost My Business",
+    "message": "Detail the processes you need to automate...",
+    "send": "Send Message",
     "sending": "Sending...",
-    "success": "Perfect! Your message has arrived. I will contact you in less than 24 hours to start optimizing your workflow.",
-    "linkedin": "Connect on LinkedIn",
-    "whatsapp": "Message me on WhatsApp"
+    "success": "Perfect! Your message has been received. I will be in touch shortly.",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
   },
   "process": {
-    "title": "My Work Methodology",
+    "title": "Engineering Methodology",
     "s1": {
       "t": "Audit",
-      "d": "Analyzing your current workflows to detect bottlenecks."
+      "d": "Deep analysis of business logic and bottlenecks."
     },
     "s2": {
       "t": "Architecture",
-      "d": "Designing a scalable automation ecosystem."
+      "d": "Designing the automation ecosystem without over-engineering."
     },
     "s3": {
-      "t": "Implementation",
-      "d": "Developing and connecting tools with surgical precision."
+      "t": "Deployment",
+      "d": "Implementation of resilient workflows with error handling."
     },
     "s4": {
-      "t": "Optimization",
-      "d": "Monitoring and scaling for maximum business impact."
+      "t": "Monitoring",
+      "d": "Supervision of metrics and solution scaling."
     }
   },
   "tech": {

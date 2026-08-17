@@ -1,17 +1,17 @@
 {
-  "title": "Especialista en IA y Automatización",
+  "title": "María Ayelén Segreti | AI Automation Engineer",
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
     "skills": "Habilidades",
-    "projects": "Proyectos",
+    "projects": "Casos de Estudio",
     "services": "Servicios",
     "contact": "Contacto"
   },
   "hero": {
     "role": "AI Automation Engineer & Workflow Architect",
     "name": "María Ayelén Segreti",
-    "subtitle": "Transformando negocios mediante ecosistemas de automatización escalables y soluciones digitales de alto impacto",
+    "subtitle": "Arquitectura de automatización y agentes de IA para operaciones críticas. Menos trabajo manual, cero errores y escalabilidad real.",
     "cta": "Ver mi trabajo",
     "cv": "Descargar CV (ATS-Friendly)"
   },
@@ -23,107 +23,91 @@
     "title": "Experiencia Técnica",
     "level": "Avanzado - Aprendizaje Continuo",
     "items": {
-      "automation": "n8n, Make, Zapier",
-      "dev": "Node.js, React, Next.js, Docker",
-      "specialized": "Antigravity, Android/iOS (React Native)",
-      "google": "Herramientas de Google"
+      "automation": "n8n (Expert), Make, Zapier",
+      "dev": "Python, Node.js, API REST, Docker",
+      "specialized": "LangChain, RAG, Prompt Engineering",
+      "google": "Gemini, OpenAI, Claude, Pinecone"
     }
   },
   "projects": {
-    "title": "Casos de Estudio Profesionales",
+    "title": "Casos de Estudio: Arquitectura n8n",
     "p1": {
-      "title": "Sincronización Automatizada de CRM",
-      "problem": "Entrada manual de datos entre múltiples plataformas causando errores y retrasos.",
-      "tools": "n8n, Salesforce, Google Sheets, Antigravity",
-      "automation": "Sincronización bidireccional en tiempo real con validación de datos basada en IA usando Antigravity.",
-      "result": "Reducción del 95% en trabajo manual y 100% de precisión en los datos.",
-      "benefit": "Mayor eficiencia en ventas e informes en tiempo real."
+      "title": "Agente IA Multi-Modelo con Fallback",
+      "problem": "Altos costos operativos en IA y fallos ocasionales por indisponibilidad de la API principal.",
+      "tools": "n8n, Gemini Pro/Flash, Telegram, Google Sheets",
+      "automation": "Sistema de orquestación resiliente con Selector Dinámico. Evalúa la calidad de la respuesta y realiza reintentos automáticos (Error Trigger) cambiando de modelo en caso de fallo.",
+      "result": "Reducción del 40% en gasto de IA y 0% de interrupción del servicio.",
+      "benefit": "Operación continua y optimización extrema de costos API."
     },
     "p2": {
-      "title": "Agente de Soporte con IA",
-      "problem": "Equipo de soporte abrumado por consultas repetitivas de Nivel 1.",
-      "tools": "n8n, OpenAI, Antigravity, Slack",
-      "automation": "Clasificación dinámica y respuestas automatizadas para problemas comunes, derivación a humanos para casos complejos.",
-      "result": "70% de los tickets resueltos sin intervención humana.",
-      "benefit": "Tiempos de respuesta más rápidos y reducción de costos operativos."
+      "title": "Pipeline End-to-End: PDF a Podcast",
+      "problem": "Cuellos de botella en la producción de contenido auditivo a partir de documentos técnicos extensos.",
+      "tools": "n8n, Azure TTS, GPT-4, Google Drive",
+      "automation": "Flujo de ingesta que extrae texto de PDFs, aplica limpieza semántica con IA, requiere aprobación humana por Telegram, y sintetiza voz generando un XML RSS.",
+      "result": "Reducción del tiempo de producción de 4 horas a 15 minutos.",
+      "benefit": "Escalabilidad en la creación de contenido multicanal sin pérdida de calidad."
     },
     "p3": {
-      "title": "Calificación Inteligente de Leads",
-      "problem": "Equipo de ventas perdiendo tiempo en leads de baja calidad.",
-      "tools": "Zapier, OpenAI, Hubspot",
-      "automation": "Calificación automatizada basada en datos de LinkedIn y comportamiento en el sitio web usando análisis de IA.",
-      "result": "Aumento del 40% en la tasa de conversión de lead a oportunidad.",
-      "benefit": "Ventas enfocadas en prospectos de alto valor."
+      "title": "Agente RAG Conversacional con Memoria",
+      "problem": "Falta de contexto histórico en las interacciones del bot de soporte con usuarios recurrentes.",
+      "tools": "n8n, Google Gemini, Sheets, Telegram",
+      "automation": "Chatbot inteligente que consulta dinámicamente un historial en Sheets, extrayendo memoria conversacional antes de generar respuestas contextualizadas.",
+      "result": "Respuestas 100% precisas y contextuales para los usuarios.",
+      "benefit": "Experiencia de usuario fluida y reducción de escalado a soporte humano."
     },
     "p4": {
-      "title": "Fábrica de Contenido Automatizada",
-      "problem": "Alto costo y tiempo para la creación de contenido en múltiples canales.",
-      "tools": "Make, Midjourney API, WordPress",
-      "automation": "Investigación, redacción y generación de imágenes automatizadas para blogs semanales y redes sociales.",
-      "result": "Producción de contenido aumentada en 5x con el mismo presupuesto.",
-      "benefit": "Presencia de marca constante y crecimiento en SEO."
-    },
-    "p5": {
-      "title": "Desarrollo de Landing Pages Premium",
-      "problem": "Empresas con baja conversión web debido a diseños genéricos y lentos.",
-      "tools": "React, Next.js, Tailwind CSS",
-      "automation": "Arquitectura modular optimizada para SEO y velocidad de carga ultrarrápida.",
-      "result": "Aumento del 25% en la retención de usuarios.",
-      "benefit": "Presencia digital profesional que convierte visitas en clientes."
-    },
-    "p6": {
-      "title": "Aplicaciones Móviles (Android/iOS)",
-      "problem": "Necesidad de accesibilidad móvil para clientes en movimiento.",
-      "tools": "React Native, Firebase, Expo",
-      "automation": "Desarrollo multiplataforma con notificaciones push y sincronización en la nube.",
-      "result": "Experiencia nativa fluida en ambas plataformas con un solo código.",
-      "benefit": "Alcance masivo y fidelización de usuarios móviles."
+      "title": "Autopiloto de Ventas (Affiliate Marketing)",
+      "problem": "Baja tasa de conversión y mucho tiempo invertido en la búsqueda de assets para redes sociales.",
+      "tools": "n8n, Pexels API, Python, Telegram",
+      "automation": "Funnel de ventas automatizado que evalúa límites diarios, extrae prompts de catálogos aprobados, busca video stock y orquesta renderizado vía motor Python.",
+      "result": "Creación y publicación de campañas 100% autónomas.",
+      "benefit": "Escalado agresivo de campañas de marketing con cero intervención manual."
     }
   },
   "services": {
-    "title": "Soluciones para el Crecimiento del Negocio",
+    "title": "Soluciones de Alto Nivel",
     "s1": {
-      "title": "Automatización de Flujos de Trabajo",
-      "desc": "Optimice sus operaciones conectando herramientas y eliminando tareas repetitivas."
+      "title": "Orquestación de Flujos (BPA)",
+      "desc": "Sistemas de automatización robustos con n8n, enfocados en tolerancia a fallos y eliminación total del trabajo repetitivo."
     },
     "s2": {
-      "title": "Integración de IA",
-      "desc": "Implementación de agentes inteligentes y LLMs para mejorar su toma de decisiones y soporte."
+      "title": "Arquitectura de Agentes de IA",
+      "desc": "Diseño e implementación de sistemas multi-agente, integraciones RAG y evaluación dinámica de modelos (LLMs)."
     },
     "s3": {
-      "title": "Desarrollo Full Stack (Web & Mobile)",
-      "desc": "Creación de aplicaciones web modernas y apps móviles profesionales diseñadas para escalar."
+      "title": "Integración de APIs y DevOps",
+      "desc": "Conexión de sistemas heredados mediante API REST, scripts Python/Node y despliegues self-hosted con Docker."
     }
   },
   "contact": {
-    "title": "Hablemos de tu próximo paso",
-    "subtitle": "Disponible para proyectos globales",
+    "title": "Hablemos de tu Arquitectura",
+    "subtitle": "Disponible para trabajo 100% remoto | Mendoza, Argentina",
     "name": "Tu Nombre",
     "email": "Tu Correo",
-    "message": "¿En qué puedo ayudarte?",
-    "send": "Impulsar mi Negocio",
+    "message": "Detalla los procesos que necesitas automatizar...",
+    "send": "Enviar Mensaje",
     "sending": "Enviando...",
-    "success": "¡Perfecto! Tu mensaje ha llegado. Te contactaré en menos de 24 horas para empezar a optimizar tu flujo.",
-    "linkedin": "Conectar en LinkedIn",
-    "whatsapp": "Escribirme por WhatsApp"
+    "success": "¡Perfecto! Tu mensaje ha llegado. Me pondré en contacto muy pronto.",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
   },
   "process": {
-    "title": "Mi Metodología de Trabajo",
+    "title": "Metodología de Ingeniería",
     "s1": {
       "t": "Auditoría",
-      "d": "Analizo tus flujos actuales para detectar cuellos de botella."
+      "d": "Análisis profundo de la lógica de negocio y cuellos de botella."
     },
     "s2": {
       "t": "Arquitectura",
-      "d": "Diseño un ecosistema de automatización escalable."
+      "d": "Diseño del ecosistema de automatización sin over-engineering."
     },
     "s3": {
-      "t": "Implementación",
-      "d": "Desarrollo y conecto las herramientas con precisión."
+      "t": "Despliegue",
+      "d": "Implementación de flujos resilientes con manejo de errores."
     },
     "s4": {
-      "t": "Optimización",
-      "d": "Monitoreo y escalo la solución para resultados máximos."
+      "t": "Monitoreo",
+      "d": "Supervisión de métricas y escalado de la solución."
     }
   },
   "tech": {

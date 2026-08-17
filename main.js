@@ -17,7 +17,7 @@ function renderProjects() {
     if (!list) return;
 
     list.innerHTML = '';
-    const projectKeys = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'];
+    const projectKeys = ['p1', 'p2', 'p3', 'p4'];
 
     projectKeys.forEach(key => {
         const p = translations.projects ? translations.projects[key] : null;
@@ -200,7 +200,7 @@ function initHeroAnimation() {
         draw() {
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(58, 134, 255, 0.5)';
+            ctx.fillStyle = 'rgba(217, 70, 239, 0.5)';
             ctx.fill();
         }
     }
@@ -226,7 +226,7 @@ function initHeroAnimation() {
                     ctx.beginPath();
                     ctx.moveTo(p.x, p.y);
                     ctx.lineTo(p2.x, p2.y);
-                    ctx.strokeStyle = `rgba(58, 134, 255, ${0.6 * (1 - dist / 180)})`;
+                    ctx.strokeStyle = `rgba(217, 70, 239, ${0.6 * (1 - dist / 180)})`;
                     ctx.lineWidth = 1.2;
                     ctx.stroke();
                 }
