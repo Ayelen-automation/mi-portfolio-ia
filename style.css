@@ -742,6 +742,16 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .marquee-item img {
+    height: 140px;
+    width: 250px;
+  }
 }
 
 /* Mobile small */
@@ -765,5 +775,15 @@ footer {
   .services-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr); /* Keep 2x2 grid on very small screens so it fits nicely */
+    gap: 1rem;
+  }
+
+  .marquee-item img {
+    height: 120px;
+    width: 210px;
   }
 }
